@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#form{
+    background-color:white;
+    width: 400px;
+    margin: 5vh auto;
+}
+.para{
+    font-size: 13px;
+    text-align: center;
+} 
+.input-type{
+    margin: 10px 45px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+} 
+.input-type label{
+    font-weight: 500;
+}
+.submit{
+    padding: 3px;
+    margin:0px 0;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 10px;
+    background-color:whitesmoke;
+    width: 25%;
+    margin-left: 9rem;
+    font-weight: 600;
+}
+.input-type input{
+    padding: 9px 7rem 9px 10px;
+    margin: 7px ;
+    border-radius: 7px;
+    font-size: 15px;
+}
+.table1{
+    display: flex;
+    justify-content: center;
+}
+table,td,tr,th{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 0.8rem;/
+}
+th{
+    padding: 1rem 2rem;
+}
+
+
