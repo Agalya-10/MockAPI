@@ -14,40 +14,32 @@
 <body>
     <div class="container">
     <form action="" id="form" class="shadow">  
-        <h2 class="head" style="text-align: center;">Login page</h2>
+        <h2 class="head pt-3" style="text-align: center;">CRUD OPERATION</h2>
         <p class="para">Welcome Back!Login to your Account.</p>
         <div class="input-type">
             <label for="username">Username</label>
-            <div class="insert-icon">
-            <input type="text" class="shadow" placeholder="Enter your Username"  name="username" id="userName">
-            </div>
+            <input type="text" class="shadow" placeholder="Enter your Username"  name="name" id="userName">
             <div id="nameError"></div>
         </div>
         <div class="input-type">
             <label for="email">Email</label>
-            <div class="insert-icon">
             <input type="text" class="shadow" placeholder="Enter your Email Address" name="email" id="email">
-            </div>
             <div id="emailError"></div>
         </div>
         <div class="input-type ">
             <label for="password">Password</label>
-            <div class="insert-icon" >
             <input type="password" class="shadow" placeholder="Enter your Password" name="password" id="password">            
-            </div>
             <div id="passwordError"></div>
             </div>
         <div class="input-type ">
             <label for="cpassword">Confirm Password</label>
-            <div class="insert-icon" >
             <input type="password" class="shadow" placeholder="Enter your Confirm Password" name="cpassword" id="cpassword">
-            </div>
             <div id="cpasswordError"></div>
                 </div>
        <button class="submit mb-4" id="submitButton"  onclick="MyButton(event)">Register</button><br>
       
     </form>
-      <div id="table1" class="mb-5 ">
+      <!-- <div id="table1" class="mb-5 ">
     <table class="table table-bordered" style="text-align: center;">
         <h3>User Details</h3>
         <thead>
@@ -61,7 +53,7 @@
         </thead>
        <tbody id="table2"></tbody>
     </table>
-    </div>
+    </div> -->
 </div>
     
 </body>
